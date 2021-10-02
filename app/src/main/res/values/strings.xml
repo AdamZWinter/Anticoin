@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Anticoin</string>
+    <string name="connect">Connect</string>
+    <string name="transmit">Transmit</string>
+    <string name="Add_Friend">Add Friend</string>
+    <string name="hint_Handle">Enter new handle to create.</string>
+    <string name="send2_friend">Send to Friend</string>
+    <string name="send">Send</string>
+
+</resources>

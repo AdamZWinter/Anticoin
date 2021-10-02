@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="org.giftnotes.anticoin.NewAccountActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_first_name"
+        android:hint="First Name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_last_name"
+        android:hint="Last Name"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_handle"
+        android:hint="Choose Username/Handle (ex. Gravity)"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_password"
+        android:hint="Strong and Memorable Password"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/device_nickname"
+        android:hint="Nickname for this device (be creative)"
+        />
+
+    <Button
+        android:id="@+id/button_new_key_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create New Account" />
+
+    <Button
+        android:id="@+id/button_restore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restore Existing" />
+
+    <Button
+        android:id="@+id/button_delete_all_alias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_new_account_display"
+            />
+
+    </ScrollView>
+
+</LinearLayout>

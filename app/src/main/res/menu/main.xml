@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/intent_send"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Send"/>
+
+    <item
+        android:id="@+id/intent_add_friend"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Add Friend"/>
+
+    <item
+        android:id="@+id/intent_create_account"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="Create Account"/>
+
+    <item
+        android:id="@+id/intent_testing"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="Testing"/>
+
+    <item
+        android:id="@+id/intent_settings"
+        android:orderInCategory="5"
+        app:showAsAction="never"
+        android:title="Settings"/>
+
+</menu>
